@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="pokedex-container">
+        <div class="left-panel">
+            <div class="screen">
+                <!-- Imagen del Pokémon -->
+                <img id="pokemon-image" src="" alt="Pokemon" />
+            </div>
+            <div class="info-section">
+                <div class="name-owner">
+                    <p><strong>Nombre:</strong> <span id="pokemon-name"></span></p>
+                </div>
+                <div class="controls">
+                    <button id="prev-btn">⬅️ Anterior</button>
+                    <button id="next-btn">Siguiente ➡️</button>
+                </div>
+            </div>
+        </div>
+        <div class="right-panel">
+            <ul class="pokemon-details">
+                <li><strong>Género:</strong> <span id="pokemon-gender"></span></li>
+                <li><strong>Naturaleza:</strong> <span id="pokemon-nature"></span></li>
+                <li><strong>Habilidad:</strong> <span id="pokemon-ability"></span></li>
+                <li><strong>Tipo:</strong> <span id="pokemon-type"></span></li>
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
